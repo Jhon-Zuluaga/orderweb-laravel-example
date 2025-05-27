@@ -47,5 +47,10 @@ class DatabaseSeeder extends Seeder
         Technician::factory(2)->create();  //Tecnico sin especialidad
 
         $this->call(ActivitySeeder::class);
+        //Seeders test
+        //$this->call(TestTechnicianSeeder::class);
+
+        //$this->call(TestActivitySeeder::class);
+
     }
 }
